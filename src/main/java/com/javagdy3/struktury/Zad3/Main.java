@@ -11,7 +11,7 @@ public class Main {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(new Random().nextInt(1000));
+                    Thread.sleep(new Random().nextInt(3000));
                     poczekalnia.dodajKlienta("Jan111", true);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -23,7 +23,7 @@ public class Main {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(new Random().nextInt(1000));
+                    Thread.sleep(new Random().nextInt(3000));
                     poczekalnia.dodajKlienta("Jan2", false);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -35,7 +35,7 @@ public class Main {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(new Random().nextInt(1000));
+                    Thread.sleep(new Random().nextInt(3000));
                     poczekalnia.dodajKlienta("Jan3", true);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -47,7 +47,7 @@ public class Main {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(new Random().nextInt(1000));
+                    Thread.sleep(new Random().nextInt(3000));
                     poczekalnia.dodajKlienta("Jan4", false);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -59,7 +59,7 @@ public class Main {
             @Override
             public void run() {
                 try {
-                    Thread.sleep(new Random().nextInt(1000));
+                    Thread.sleep(new Random().nextInt(3000));
                     poczekalnia.dodajKlienta("Jan5", true);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -68,7 +68,7 @@ public class Main {
         }).start();
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
